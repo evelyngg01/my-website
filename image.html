@@ -6,6 +6,10 @@
   <meta charset="utf-8">
   <title>evelyn derosia's page!</title>
   <style>
+    body{
+      background-image: url("suntile.png");
+    }
+
     img{
       border: 5px solid orange;
       border-radius: 50px;
@@ -15,20 +19,45 @@
       margin-left: auto;
       margin-right: auto;
       width:900px;
-
     }
 
     img:hover {
       transform:scale(1.05);
     }
+    div{
+    color:#ffd6bb;
+    text-decoration: none;
+    background: #ea8e75;
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 30px;
+    border: 3px dashed #ffd590;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 5px orange;
+    scale: 1;
+    transition: scale .6s, box-shadow .6s, background .6s, color .6s;
+    }
+
+    div:hover{
+      background: #d17642;
+      color:#ffd6bb;
+      box-shadow: 10px 10px 5px #ffa58d;
+      scale: 1.2;
+      transition: scale .6s, box-shadow .6s, background .6s, color .6s;
+    }
 
   </style>
 </head>
+
 
 <body>
 <h1>my image</h1>
 <p>This is a picture of flowers</p>
 <img src="sunsetflowers.jpg" alt="warm flowers in the sunset" />
+
+<div><p>text stuff</p></div>
 
 </body>
 
